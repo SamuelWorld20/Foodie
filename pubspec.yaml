@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_gemini: ^3.0.0
+  image_picker: ^1.0.8
+  dash_chat: ^1.1.16
 
 dev_dependencies:
   flutter_test:
