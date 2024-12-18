@@ -4,7 +4,9 @@ import 'package:foodie/consts.dart';
 import 'package:foodie/home_page.dart';
 
 void main() {
-  Gemini.init(apiKey: GEMINI_API_KEY);
+  Gemini.init(
+    apiKey: GEMINI_API_KEY,
+  );
   runApp(const MyApp());
 }
 
@@ -14,8 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Foodie AI App',
+      title: 'Foodie App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
